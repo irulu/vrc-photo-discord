@@ -14,7 +14,7 @@ VRChatで撮った写真を、自動でDiscordに送信するPythonスクリプ�
 1. このリポジトリをダウンロード（またはclone）する
 2. 必要なライブラリを入れる
    ```
-   pip install -r requirements.txt
+   python -m pip install requests
    ```
 3. `webhook.example.txt` をコピーして `webhook.txt` にリネームし、中身をあなたのwebhook URLに書き換える
 4. 画像フォルダのパスが違う場合は `vrc-photo.py` 内の設定を変更する

@@ -1,0 +1,3 @@
+webhook.txt
+*.log
+__pycache__/
